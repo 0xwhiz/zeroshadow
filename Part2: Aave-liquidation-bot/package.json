@@ -1,0 +1,27 @@
+{
+  "name": "aave-liquidation-bot",
+  "version": "1.0.0",
+  "description": "AAVE liquidation monitoring bot with Telegram alerts",
+  "main": "scripts/monitor.js",
+  "scripts": {
+    "start": "node scripts/monitor.js",
+    "test": "forge test",
+    "build": "forge build",
+    "deploy": "forge script script/Deploy.s.sol --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "aave",
+    "liquidation",
+    "defi",
+    "ethereum",
+    "monitoring",
+    "telegram"
+  ],
+  "author": "AAVE Liquidation Bot",
+  "license": "MIT"
+} 
