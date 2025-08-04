@@ -1,0 +1,9 @@
+[submodule "aave-liquidation-bot/lib/forge-std"]
+	path = aave-liquidation-bot/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "aave-liquidation-bot/lib/aave-v3-core"]
+	path = aave-liquidation-bot/lib/aave-v3-core
+	url = https://github.com/aave/aave-v3-core
+[submodule "aave-liquidation-bot/lib/openzeppelin-contracts"]
+	path = aave-liquidation-bot/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
